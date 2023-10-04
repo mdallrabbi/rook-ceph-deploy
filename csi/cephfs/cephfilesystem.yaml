@@ -1,7 +1,7 @@
 apiVersion: ceph.rook.io/v1
 kind: CephFilesystem
 metadata:
-  name: uat-fs
+  name: ceph-filesystem
   namespace: rook-ceph
 spec:
   metadataPool:
